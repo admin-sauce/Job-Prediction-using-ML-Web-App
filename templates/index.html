@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Placement Prediction</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Job Placement Prediction</h1>
+    <form action="/predict" method="post">
+        <label for="internship">Internship (1 for yes, 0 for no):</label><br>
+        <input type="text" id="internship" name="internship"><br>
+        <label for="cgpa">CGPA:</label><br>
+        <input type="text" id="cgpa" name="cgpa"><br>
+        <label for="backlogs">Backlogs (1 for yes, 0 for no):</label><br>
+        <input type="text" id="backlogs" name="backlogs"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
