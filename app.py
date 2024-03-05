@@ -14,7 +14,7 @@ def predict():
     backlogs = int(request.form['backlogs'])
     input_arr = [[internship, cgpa, backlogs]]
 
-    with open("aptitude1.pickle", "rb") as f:
+    with open("model.pickle", "rb") as f:
         classifier = pickle.load(f)
 
     ans = classifier.predict(input_arr)
