@@ -87,4 +87,4 @@ To get a local copy up and running, follow these simple steps:
 
 ## License
 
-Distributed under the GNU General Public License v3.0 License. See [LICENSE](https://github.com/admin-sauce/Water-Cleanliness-Prediction-ML-Web-App/blob/master/LICENSE) for more information.
+Distributed under the GNU General Public License v3.0 License. See [LICENSE](https://github.com/admin-sauce/Job-Prediction-using-ML-Web-App/blob/main/LICENSE) for more information.
